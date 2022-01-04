@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
-        <NavLink to="/" exact className="hover" activeClassName="nav-at">
+        <NavLink to="/" className="hover" activeClassName="nav-active">
           <li>accueil</li>
         </NavLink>
         <li className="nav-portfolio">
@@ -44,7 +44,7 @@ const Navigation = () => {
             </NavLink>
           </ul>
         </li>
-        <NavLink to="/contact" exact className="hover" activeClassName="nav-at">
+        <NavLink to="/contact" className="hover" activeClassName="nav-active">
           <li>contact</li>
         </NavLink>
       </ul>

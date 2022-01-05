@@ -17,7 +17,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
-        <ButtonsBottom right={"/projet-1"} />
+        <ButtonsBottom right={"/project-1"} />
       </div>
     </div>
   );
